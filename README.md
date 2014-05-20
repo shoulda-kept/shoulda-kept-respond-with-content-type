@@ -1,4 +1,7 @@
 # Shoulda-Kept-Assign-To
+By [Tinfoil Security](http://tinfoilsecurity.com/)
+
+[![Build Status](https://travis-ci.org/tinfoil/shoulda-kept-respond-with-content-type.svg?branch=master)](https://travis-ci.org/tinfoil/shoulda-kept-respond-with-content-type)
 
 Shoulda-matchers, ([official Git repo](https://github.com/thoughtbot/shoulda-matchers)), removed the respond_with_content_type matcher in version 2.0.0. We missed it dearly, enough to bring it back. This gem includes all of the current version of shoulda-matchers, and it adds the 'respond_with_content_type' matcher back in, just the way it was before it was mercilessly destroyed.
 
