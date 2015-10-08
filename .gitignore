@@ -10,3 +10,4 @@ tmp
 .bundle
 *.rbc
 gemfiles/*.gemfile.lock
+Gemfile.lock
