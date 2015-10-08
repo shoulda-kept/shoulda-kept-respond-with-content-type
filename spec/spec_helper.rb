@@ -21,6 +21,7 @@ ActiveRecord::Migration.verbose = false
 ActiveRecord::Migrator.migrate(Rails.root.join('db/migrate'))
 
 RSpec.configure do |config|
-  config.include Shoulda::Matchers::ActionController,
-                 :example_group => { :file_path => /action_controller/ }
+  config.include Shoulda::Matchers::ActionController
+
+  config.expect_with(:rspec) { |c| c.syntax = :should }
 end
